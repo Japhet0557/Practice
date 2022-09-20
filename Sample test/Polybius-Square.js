@@ -129,4 +129,11 @@ function solution(plaintext,keyword,row,column) {
 } 
 
 console.log(solution("codesignal","keyword",1,2));
+console.log(solution("nihilist","cipher",1,1)); // [52, 24, 27, 26, 49, 33, 55, 57]
+console.log(solution("z","ab",1,1)); // [22, 23]
+console.log(solution("abc","zyx",1,1)); // [25, 27, 34]
+console.log(solution("ayy","zab",5,5)); // [23, 67, 68]
+console.log(solution("nihilistcipher","abcdefghijklmnopqrstuvwxyz",3,2)); // [45, 36, 36, 38, 47, 45, 66, 68, 37, 49, 72, 55, 48, 77, 69, 65, 65, 67, 76, 69, 95, 97, 66, 78, 96, 55]
+//console.log(solution("z","ab",1,1));
+//console.log(solution("z","ab",1,1));
  //console.log(solution("keyword"));

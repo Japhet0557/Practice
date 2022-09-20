@@ -25,9 +25,11 @@ solution(src) = "This is the docString for __secretFun".
 function snakeToCamel(str){
   return str.replace(
     /(?!^)_(.)/g,
-    (_, char) => char.toUpperCase()
+    (_,char) => char.toUpperCase()
   );
+
+  
 }
 
-console.log(snakeToCamel('_secret_fun')); 
+console.log(snakeToCamel("This is the doc_string for __secret_fun")); //  "This is the docString for __secretFun"
 console.log(snakeToCamel('the_variable_'));
